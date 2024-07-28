@@ -19,10 +19,12 @@ const ContactUs = ({ gameName }) => {
       .then(
         () => {
           console.log('SUCCESS!');
+          alert('invitation sent')
           form.current.reset(); // Clear the form inputs
         },
         (error) => {
           console.log('FAILED...', error.text);
+          alert('error sending')
         }
       );
 
