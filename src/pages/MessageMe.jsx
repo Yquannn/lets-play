@@ -2,7 +2,13 @@
 const MessageMePage = () =>{
   return (
     <>
-    <p>message me</p>
+    <div className="flex justify-center items-center min-h-screen">
+      <div>
+      <p>message me</p>
+      <p>Wala pa ako maisip dito</p>
+      </div>
+    </div>
+
     </>
   );
 }

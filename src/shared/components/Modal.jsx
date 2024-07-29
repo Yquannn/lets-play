@@ -8,7 +8,7 @@ const Modal = ({ isOpen, onClose, children }) => {
           className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto overflow-x-hidden"
         >
           <div className="relative w-full max-w-md p-4 h-auto">
-            <div className="relative bg-white rounded-lg shadow dark:bg-pink-700 opacity-95 ">
+            <div className="relative bg-pink-700 rounded-lg shadow dark:bg-pink-700 opacity-95 ">
               {/* Modal header */}
               <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t dark:border-gray-600">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">

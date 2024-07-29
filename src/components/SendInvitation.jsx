@@ -39,6 +39,7 @@ const ContactUs = ({ gameName }) => {
           className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           type="text"
           name="from_name"
+          placeholder='Enter your name or ign'
         />
       </div>
       <div className="mb-4">
@@ -49,6 +50,7 @@ const ContactUs = ({ gameName }) => {
           name="game_name"
           value={gameName} // Set the game name from props
           readOnly // Make the input read-only
+       
         />
       </div>
       <div className="mb-4">
@@ -56,13 +58,14 @@ const ContactUs = ({ gameName }) => {
         <textarea
           className="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
           name="message"
+          placeholder='....'
         />
       </div>
       <div className="text-center">
         <input
           className="px-6 py-3 bg-blue-500 text-white font-bold rounded-md cursor-pointer hover:bg-blue-600 transition"
           type="submit"
-          value="Send"
+          value="Send Invitation"
         />
       </div>
     </form>
